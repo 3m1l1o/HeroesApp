@@ -1,8 +1,8 @@
-import { useFetch } from "../Hooks/useFetch"
+import { useFetch } from "../Hooks"
 
 export const MultipleCustomHook = () => {
 
-  const { data, hasError, isLoading } = useFetch('https://pokeapi.co/api/v2/pokemon/2');
+  const { data, isLoading } = useFetch(`https://pokeapi.co/api/v2/pokemon/ditto`); //hasError
 
 useFetch();
   return (

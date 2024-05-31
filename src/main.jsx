@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { MultipleCustomHook } from "./03-examples/MultipleCustomHook";
@@ -7,7 +7,7 @@ import { MultipleCustomHook } from "./03-examples/MultipleCustomHook";
 // CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  //<React.StrictMode>
     <MultipleCustomHook />
-  </React.StrictMode>
+  //</React.StrictMode>
 );
